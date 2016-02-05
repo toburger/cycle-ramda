@@ -2,7 +2,9 @@ import R from 'ramda'
 import {
     Observable
 } from 'rx'
-import Cycle from '@cycle/core'
+import {
+    run
+} from '@cycle/core'
 import {
     div,
     label,
@@ -36,6 +38,6 @@ const main = sources => ({
     ]))
 })
 
-Cycle.run(main, {
+run(main, {
     DOM: makeDOMDriver('#app')
 })
