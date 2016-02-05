@@ -1,0 +1,15 @@
+{
+  "jspm": {
+    "dependencies": {
+      "@cycle/core": "npm:@cycle/core@^6.0.2",
+      "@cycle/dom": "npm:@cycle/dom@^9.0.2",
+      "ramda": "npm:ramda@^0.19.1",
+      "rx": "npm:rx@^4.0.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
